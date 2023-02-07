@@ -1,6 +1,9 @@
 name: Workflow Test.
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   Workflow-Test-Job:
