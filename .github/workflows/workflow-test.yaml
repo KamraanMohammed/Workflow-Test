@@ -1,0 +1,10 @@
+name: Workflow Test.
+
+on: push
+
+jobs:
+  Workflow-Test-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print Workflow test working.
+        run: echo "Workflow testis working"
