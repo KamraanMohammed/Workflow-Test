@@ -8,9 +8,7 @@ jobs:
     steps:
       - name: print Workflow test working.
         run: echo "Workflow testing working"
-    steps:
       - name: Sleep for 20 seconds.
         run: sleep 20
-    steps:
       - name: second line
         run: echo "second line of text"
